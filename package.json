@@ -1,0 +1,36 @@
+{
+  "name": "myversionapi",
+  "version": "1.0.0",
+  "description": "nothing to describe...:",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tech-R11/MyVersionApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tech-R11/MyVersionApi/issues"
+  },
+  "homepage": "https://github.com/tech-R11/MyVersionApi#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "joi": "^13.1.0",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.8.4",
+    "winston": "^2.4.0",
+    "winston-mongodb": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}
